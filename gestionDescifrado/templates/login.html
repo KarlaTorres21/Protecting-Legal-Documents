@@ -1,0 +1,16 @@
+{% extends "vistaPadre.html" %}
+
+{% block title %} Login {% endblock %}
+
+{% block content %} 
+  <div class="text-center">
+    <h1 class="h4 text-gray-900 mb-4">Ingresa para saber sobre tus casos!</h1>
+  </div>
+  <form class="user" action="/descifrarCaso/" method="POST">
+    {% csrf_token %}
+    <div class="form-group">
+      <input class="form-control form-control-user" name="idChatTelegram" id="IDChatTelegram" required placeholder="Ingresa tu ID asignado en Telegram...">
+    </div>
+    <input type="submit" value="Enviar datos"  class="btn btn-primary btn-user btn-block">
+  </form>
+{% endblock %}

@@ -1,0 +1,19 @@
+{% extends "vistaPadre.html" %}
+
+{% block title %} Agregar número telefónico {% endblock %}
+
+{% block content %} 
+  <div class="text-center">
+    <h1 class="h4 text-gray-900 mb-4">Agrega a un abogado al caso!</h1>
+  </div>
+  <form class="user" action="/datosAbogado/" method="POST">
+    {% csrf_token %}
+    <div class="form-group">
+      <input class="form-control form-control-user" name="nombreAbogado" id="NombreAbogado" required placeholder="Nombre del abogado...">
+    </div>
+    <div class="form-group">
+      <input class="form-control form-control-user" name="idChatTelegram" id="IDChatTelegram" required placeholder="Ingresa el chat ID del abogado...">
+    </div>
+    <input type="submit" value="Enviar datos"  class="btn btn-primary btn-user btn-block">
+  </form>
+{% endblock %}
