@@ -1,5 +1,5 @@
 # Protecting-Legal-Documents
-Web project developed for the subject of Cryptography that allows to encrypt the documents that are uploaded using AES 128 bits, dividing the key into n parts being necessary k lawyers to decipher it again using Secret Sharing Scheme, later the sub keys are encrypted with RSA and sent by telegram to lawyers who share the same case. Digital certificates are created that are provided via email.
+Web project developed for the subject of Cryptography that allows to encrypt the documents that are loaded using AES 128 bits, by means of Secret Sharing Scheme the key is divided into n parts being necessary k lawyers to decrypt the selected document again. The subkeys are encrypted with RSA and sent by telegram to the lawyers who share the same case. Digital certificates are created and sent by email.
 
 The cryptographic services it offers are: authentication, confidentiality, non-repudiation and data integrity.
 
