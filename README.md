@@ -3,7 +3,7 @@ Web project developed for the subject of Cryptography that allows to encrypt the
 
 The cryptographic services it offers are: authentication, confidentiality, non-repudiation and data integrity.
 
-## Construido con 🛠️
+## Implemented with 💻
 * [Django](https://www.djangoproject.com/) - The web framework used
 * [Python](https://www.python.org/) - Programming language used
 * [Bootstrap](https://getbootstrap.com/) - Multiplatform library for styles
