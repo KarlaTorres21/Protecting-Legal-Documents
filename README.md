@@ -7,7 +7,3 @@ The cryptographic services it offers are: authentication, confidentiality, non-r
 * [Django](https://www.djangoproject.com/) - The web framework used
 * [Python](https://www.python.org/) - Programming language used
 * [Bootstrap](https://getbootstrap.com/) - Multiplatform library for styles
-
-## Wiki 📖
-You can find much more about how to use this project in the document with the PDF extension
-
