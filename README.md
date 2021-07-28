@@ -11,7 +11,3 @@ The cryptographic services it offers are: authentication, confidentiality, non-r
 ## Wiki 📖
 You can find much more about how to use this project in the document with the PDF extension
 
-## Autores ✒️
-* **Karla Torres** - *Website development and logic of this*
-* **Hector Hernandez** - *Generation of certificates for lawyers*
-* **Erick Miranda, Luis Varela, Hector Hernandez, Karla Torres** - *Documentation*
